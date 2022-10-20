@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.prototipo.brian.Segurity.Entity;
+package com.prototipo.brian.Security.Entity;
 
 import java.util.HashSet;
 import java.util.Set;

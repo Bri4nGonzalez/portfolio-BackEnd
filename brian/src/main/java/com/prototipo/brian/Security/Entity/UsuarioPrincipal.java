@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.prototipo.brian.Segurity.Entity;
+package com.prototipo.brian.Security.Entity;
 
 import java.util.Collection;
 import java.util.List;
@@ -50,9 +50,17 @@ public class UsuarioPrincipal implements UserDetails{
         return password;
     }
 
-    @Override
     public String getNombre() {
         return nombre;
+    }
+    
+    public String getEmail(){
+        return email;
+    }
+    
+    @Override
+    public String getUsername(){
+        return nombreUsuario;
     }
 
     @Override
